@@ -41,7 +41,7 @@ export const Container = styled.div`
     height: 5.2vh;
     ${center}
     font-weight: 700;
-    font-size: 12px;
+    font-size: 0.8vw;
   }
 `;
 export const BoxMenu = styled.nav`
@@ -50,6 +50,9 @@ export const BoxMenu = styled.nav`
   height: 4.3vh;
   ${center}
   justify-content: space-between;
+  img{
+    width: 7vw;
+  }
 `;
 export const Menu = styled.ul`
   /* border: solid 1px white; */
@@ -64,7 +67,7 @@ export const Lista = styled.li`
   width: ${(props) => props.largura};
   background-color: ${(props) => props.cor};
   border-radius: 50px;
-  font-size: 14px;
+  font-size: 0.9vw;
   padding: 6px;
   ${center}
   cursor: pointer;
