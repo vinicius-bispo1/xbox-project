@@ -8,59 +8,58 @@ const center = css`
 `;
 
 export const FirstContainer = styled.section`
-${center}
-flex-direction: column;
-background-color: #0D100C;
-
-`
+  ${center}
+  flex-direction: column;
+  background-color: #0d100c;
+`;
 export const BoxInicio = styled.div`
-height: 157vh;
-${center}
-flex-direction: column;
-justify-content: space-evenly;
-img{
-  width: 76.5vw;
-}
-`
-export const BoxTitle= styled.div`
-width: 100%;
-height: 18.4vh;
-${center}
-flex-direction: column;
-h1{
-color: white;
-font-size: 4.5vw;
-}
-h3{
-  color: #9BF00B;
-  font-size: 1.5vw;
-}
-`
+  height: 157vh;
+  ${center}
+  flex-direction: column;
+  justify-content: space-evenly;
+  img {
+    width: 76.5vw;
+  }
+`;
+export const BoxTitle = styled.div`
+  width: 100%;
+  height: 18.4vh;
+  ${center}
+  flex-direction: column;
+  h1 {
+    color: white;
+    font-size: 4.5vw;
+  }
+  h3 {
+    color: #9bf00b;
+    font-size: 1.5vw;
+  }
+`;
 export const BoxControle = styled.section`
-height: 72.9vh;
-width: 76.7vw;
-${center}
-justify-content: space-between;
-img{
-  width: 31.2vw;
-}
-`
+  height: 72.9vh;
+  width: 76.7vw;
+  ${center}
+  justify-content: space-between;
+  img {
+    width: 31.2vw;
+  }
+`;
 
 export const Descrição = styled.div`
-width: 35.6vw;
+  width: 35.6vw;
 
-h2{
-  font-size: 4vw;
-  color: white;
-}
-span{
-  color: #9BF00B;
-}
-p{
-  font-size: 1.5vw;
-  color: white;
-}
-`
+  h2 {
+    font-size: 4vw;
+    color: white;
+  }
+  span {
+    color: #9bf00b;
+  }
+  p {
+    font-size: 1.5vw;
+    color: white;
+  }
+`;
 
 export const Games = styled.figure`
   display: flex;
@@ -89,7 +88,7 @@ export const Perguntas = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 70vh;
   color: white;
 
   span {

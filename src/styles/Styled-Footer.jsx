@@ -11,6 +11,10 @@ export const Footer = styled.footer`
     align-items: center;
     width: 76vw;
     height: 10vh;
+
+    @media (max-width: 390px) {
+      width: 90%;
+    }
   }
 
   ul {
@@ -22,6 +26,7 @@ export const Footer = styled.footer`
     @media (max-width: 800px) {
       display: flex;
       flex-direction: column;
+      text-align: right;
     }
 
     @media (max-width: 390px) {

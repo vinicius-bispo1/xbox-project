@@ -11,7 +11,7 @@ export default function Footer() {
         </figure>
 
         <ul>
-          <li>© Microsoft 2022</li>
+          <li>©Microsoft 2022</li>
           <li>Todos os direitos reservados</li>
         </ul>
       </section>
