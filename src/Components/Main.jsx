@@ -21,10 +21,10 @@ export default function Main() {
           <img src={console} alt="" />
         </S.BoxInicio>
          <S.BoxControle>
-          <div>
-          <h2>Desempenho aperfeiçoado</h2>
+          <S.Descrição>
+          <h2><span>Desempenho</span> aperfeiçoado</h2>
           <p>O controle sem fio Xbox traz um design elegante, conforto refinado e compartilhamento instantâneo para um favorito comum.</p>
-          </div>
+          </S.Descrição>
           <img src={controle} alt="" />
          </S.BoxControle>
       </S.FirstContainer>

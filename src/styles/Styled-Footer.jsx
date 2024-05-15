@@ -5,7 +5,6 @@ import styled from "styled-components";
 export const Footer = styled.footer`
   display: flex;
   justify-content: center;
-  background-color: black;
   section {
     display: flex;
     justify-content: space-between;
