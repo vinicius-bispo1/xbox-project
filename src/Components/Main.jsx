@@ -6,10 +6,28 @@ import farcry from "../assets/farcry.png";
 import forza from "../assets/forza.png";
 import fifa from "../assets/fifa.png";
 import mine from "../assets/mine.png";
+import console from "../assets/xbox.png";
+import controle from "../assets/controle-xbox.png";
 
 export default function Main() {
   return (
     <main>
+      <S.FirstContainer>
+        <S.BoxInicio>
+         <S.BoxTitle>
+          <h1>Xbox series X</h1>
+          <h3>PEDIDO ANTECIPADO</h3>
+          </S.BoxTitle>
+          <img src={console} alt="" />
+        </S.BoxInicio>
+         <S.BoxControle>
+          <S.Descrição>
+          <h2><span>Desempenho</span> aperfeiçoado</h2>
+          <p>O controle sem fio Xbox traz um design elegante, conforto refinado e compartilhamento instantâneo para um favorito comum.</p>
+          </S.Descrição>
+          <img src={controle} alt="" />
+         </S.BoxControle>
+      </S.FirstContainer>
       <section>
         <S.Games>
           <img src={farcry} alt="game" />

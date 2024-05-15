@@ -10,6 +10,7 @@ export const Globalstyle = createGlobalStyle`
     text-decoration: none;
     list-style: none;
     font-family: "Inter", sans-serif;
+    background-color: #0D100C;
 }
 `;
 const center = css`
