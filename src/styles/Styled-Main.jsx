@@ -74,12 +74,16 @@ export const Perguntas = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 78vh;
   background-color: black;
   color: white;
 
   span {
     color: greenyellow;
+  }
+
+  @media (max-width: 420px) {
+    height: 53vh;
   }
 `;
 
@@ -88,8 +92,8 @@ export const Detalhes = styled.div`
 
   details {
     border-bottom: solid gray 1px;
-    height: 5vh;
-    width: 100%;
+    height: 8vh;
+    width: 76vw;
     display: flex;
     cursor: pointer;
   }
@@ -105,6 +109,7 @@ export const Detalhes = styled.div`
 
     details {
       height: 7vh;
+      width: 90vw;
     }
   }
 `;
