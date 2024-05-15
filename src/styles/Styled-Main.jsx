@@ -95,6 +95,10 @@ export const Perguntas = styled.div`
   span {
     color: greenyellow;
   }
+
+  @media (max-width: 420px) {
+    height: 53vh;
+  }
 `;
 
 export const Detalhes = styled.div`
@@ -102,8 +106,8 @@ export const Detalhes = styled.div`
 
   details {
     border-bottom: solid gray 1px;
-    height: 5vh;
-    width: 100%;
+    height: 8vh;
+    width: 76vw;
     display: flex;
     cursor: pointer;
   }
@@ -119,6 +123,7 @@ export const Detalhes = styled.div`
 
     details {
       height: 7vh;
+      width: 90vw;
     }
   }
 `;
