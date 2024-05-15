@@ -3,22 +3,35 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
-  background-color: black;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
-  height: 10vh;
+  justify-content: center;
+  background-color: black;
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10vh;
+  }
 
   ul {
     display: flex;
     justify-content: space-evenly;
     width: 25%;
     color: white;
+
+    @media (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @media (max-width: 390px) {
+      width: 50%;
+      font-size: 0.7rem;
+    }
   }
 
   figure {
-    width: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
