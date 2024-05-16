@@ -8,10 +8,10 @@ export default function Header() {
         <S.BoxMenu>
             <img src={logo} alt="Logo do xbox" />
             <S.Menu>
-                <S.Lista cor="#67676763" largura="7.1vw">VISÃO GERAL</S.Lista>
-                <S.Lista largura="4.3vw">JOGOS</S.Lista>
-                <S.Lista largura="5vw">GALERIA</S.Lista>
-                <S.Lista largura="4.4vw">UNBOX</S.Lista>
+                <S.Lista cor="#67676763" largura="7.1vw" larg2="10vw" larg3="20vw">VISÃO GERAL</S.Lista>
+                <S.Lista cor2="#67676763" largura="4.3vw">JOGOS</S.Lista>
+                <S.Lista cor2="#67676763" largura="5vw">GALERIA</S.Lista>
+                <S.Lista cor2="#67676763" largura="4.4vw">UNBOX</S.Lista>
             </S.Menu>
         </S.BoxMenu>
         <a href="">VER DISPONIBILIDADE</a>
